@@ -1,18 +1,15 @@
+:host {
+  width: 100%;
+  display: block;
 
-  h2 {
-    
-    text-align: center;
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 300;
-    font-weight: bold;
-    font-size: 48px;
+  img {
+      width: 60px;
+      height: 60px;
+      margin: auto;
+      display: block;
+      border-radius: 30px;
   }
-
+}
 
   
   

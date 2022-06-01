@@ -1,73 +1,13 @@
-.login-senha {
-    padding: 0 60px;
+.my-text-input {
+  margin: auto;
+  width: 100%;
+  text-align: center;
 
-
-
-}
-
-input {
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    outline: none;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 4px;
-}
-
-input[type="text"],
-
-input[type="password"] {
-    width: 100%;
-    padding: 0 0 0 10px;
-    margin: 0;
-    color: #f5f6f8;
-    border: 1px solid #c2c0ca;
-    font-style: normal;
-    font-size: 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    position: relative;
-    display: inline-block;
-    background: none;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus {
-  border-color: #3ca9e2;
-}
-input[type="text"]:focus:invalid,
-input[type="password"]:focus:invalid {
-  color: #cc1e2b;
-  border-color: #cc1e2b;
-}
-input[type="text"]:valid ~ .validation,
-input[type="password"]:valid ~ .validation {
-  display: block;
-  border-color: #0C0;
-}
-input[type="text"]:valid ~ .validation span,
-input[type="password"]:valid ~ .validation span {
-  background: #0C0;
-  position: absolute;
-  border-radius: 6px;
-}
-input[type="text"]:valid ~ .validation span:first-child,
-input[type="password"]:valid ~ .validation span:first-child {
-  top: 30px;
-  left: 14px;
-  width: 20px;
-  height: 3px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-input[type="text"]:valid ~ .validation span:last-child,
-input[type="password"]:valid ~ .validation span:last-child {
-  top: 35px;
-  left: 8px;
-  width: 11px;
-  height: 3px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  input {
+      padding: 10px 15px;
+      border-radius: 23px;
+      width: 100%;
+      max-width: 400px;
+      background-color: #eceaeafc;
+  }
 }

@@ -1,11 +1,12 @@
-.home{
-    background-color: rgb(202, 199, 199);
-    width: 35%;
-    margin: 30px auto;
-    text-align: center;
-    padding: 20px 0 0 0;
-    border-radius: 4px;
-    box-shadow: 0px 30px 50px 0px rgb(0 0 0 / 20%);
-    background-image: url(../home/background.jpg);
-
+home-container {
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: calc(95vh - 40px);
+}
+twitch-card{
+    margin: 40px;
+    width: 450px;
+}
+.flex{
+    display: flex;
 }
