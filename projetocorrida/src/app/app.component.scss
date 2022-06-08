@@ -261,6 +261,15 @@
     z-index: -10;
     width: 1920px;
   }
+  .botao-run{
+    border: none;
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+    top: 9%;
+    font-size: 15px;
+    text-decoration: underline;
+  }
 
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
@@ -289,4 +298,6 @@
       display: none;
       visibility: hidden;
     }
-  }
+   
+}
+  
