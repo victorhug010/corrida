@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from 'src/app/auth/auth.service';
 
 @Component({
   selector: 'home',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   
+  constructor(public auth: AuthService) { }
+
+    get isLogged(): boolean {
+        return this.auth.isAuthenticated()
+    }
+    
+    doLogout() {
+        localStorage.removeItem('user');
+    }
+    
 }
+

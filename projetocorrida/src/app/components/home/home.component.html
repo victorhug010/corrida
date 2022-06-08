@@ -1,7 +1,20 @@
 <div class="home">
-<my-image></my-image>
-<login></login>
-<my-text-inputs></my-text-inputs>
-<my-button></my-button>
+<login *ngIf="!isLogged"></login></div>
+
+    
+
+
+<div class="home-container" *ngIf="isLogged">
+    <div class="flex">
+    
+    <twitch-card></twitch-card>
+    
+    <twitter-card></twitter-card>
+
+    <my-button (click)="doLogout()" [label]="'logout'"></my-button>
+</div>
+    
+    
 
 </div>
+
